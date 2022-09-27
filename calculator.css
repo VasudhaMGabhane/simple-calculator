@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
 body{
   font-family: 'Titillium Web', sans-serif;
-  background: url("C:/Users/HP/OneDrive/Documents/Desktop/cal/background-image.png");
+  background-image: linear-gradient(to bottom right, purple, blue);
   background-repeat: no-repeat;
   background-size: cover;
   }
