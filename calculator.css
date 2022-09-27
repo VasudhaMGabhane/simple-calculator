@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+body{
+  font-family: 'Titillium Web', sans-serif;
+  background: url("C:/Users/HP/OneDrive/Documents/Desktop/task-calculator/background-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+button{
+padding: 10px !important;
+}
+.card-width{
+  max-width: max-content;
+}
+.display {
+  height: 100px;
+  width: 100%;
+  text-align: right;
+  padding: 20px;
+  font-size: 30px;
+  position: relative;
+}
+.display-1 {
+  opacity: 0.4;
+  font-size: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.display-2{
+  font-size: smaller;
+  
+}
+.temp-result {
+  position: absolute;
+  bottom: 0;
+  left: 10;
+  font-size: 20px;
+  opacity: 0.3;
+}
+.button,.button-operator{
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  padding: 0;
+  background-color: #fff;
+  border: aliceblue;
+}
+.button:hover {
+  background-color: rgb(30, 43, 46);
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  padding: 8PX;
+  border-radius: 50%;
+}
+.btn-na:hover{
+  background-color: #fff;
+  border: aliceblue;
+}
+
+.btn-radius1,.btn-radius2,.btn-radius3,.btn-radius4,.btn-radius5,.btn-radius6 {  
+  padding: 8PX;
+  border-radius: 50%;
+}
+.btn-radius1 {
+  background:#dcdedd;
+  border: 2PX SOLID #dcdedd;
+}
+.btn-radius2 {
+  background:#20b4a4;
+  border: 2PX SOLID #20b4a4;
+}
+.btn-radius3{
+  background:#fda503 !important;
+  border: 2PX SOLID #fda503 !important;
+}
+.btn-radius4{
+  background:#f18280;
+  border: 2PX SOLID #f18280;
+}
+.btn-radius5{
+  background:#7d93de;
+  border: 2PX SOLID #7d93de;
+}
+.btn-radius6{
+  background:#9479ae;
+  border: 2PX SOLID #9479ae;
+}
+.btn-radius1:hover,.btn-radius2:hover,.btn-radius3:hover,.btn-radius4:hover,.btn-radius5:hover,.btn-radius6:hover{
+  background-color: rgb(30, 43, 46);
+  color: #fff;
+}
+.input-field{
+  width: 230px;
+  margin: 18px;
+}
