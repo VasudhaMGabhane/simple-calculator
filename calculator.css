@@ -6,6 +6,9 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   }
+.bg-margin{
+  margin: 120px;
+}
 button{
 padding: 10px !important;
 }
